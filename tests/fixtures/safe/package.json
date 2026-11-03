@@ -1,0 +1,7 @@
+{
+  "name": "safe-plugin-fixture",
+  "version": "1.0.0",
+  "description": "A deliberately safe local fixture for dsh-plugin-safety-check tests.",
+  "main": "index.js",
+  "license": "MIT"
+}
