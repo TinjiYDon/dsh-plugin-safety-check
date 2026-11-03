@@ -1,0 +1,19 @@
+{
+  "name": "dsh-plugin-safety-check",
+  "version": "0.1.0",
+  "description": "Static safety audit for DeepSeek Harness (DSH) plugins: identity, install-time behavior, data egress, credentials, obfuscation, auto-start. Does not execute the target.",
+  "type": "module",
+  "bin": {
+    "dsh-plugin-audit": "scripts/audit.mjs"
+  },
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "audit": "node scripts/audit.mjs"
+  },
+  "keywords": ["dsh", "deepseek-harness", "plugin", "security", "audit", "skill"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "files": ["SKILL.md", "README.md", "LICENSE", "scripts", "tests"]
+}
